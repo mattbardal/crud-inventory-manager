@@ -75,7 +75,7 @@ app.get('/api/item/name/:name', (req, res) => {
             return;
         }
 
-        const matches = rows.filter(row => row.name.includes(req.params.name.toLowerCase()));
+        const matches = rows.filter(row => (row.name).toLowerCase().includes((req.params.name).toLowerCase()));
         if(matches.length > 0) {
             res.json({
                 "message":"success", 
