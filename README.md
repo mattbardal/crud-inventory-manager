@@ -34,7 +34,7 @@ To run this application locally, follow these steps:
 
 1) Clone the repository `git clone https://github.com/mattbardal/crud-inventory-manager.git`
 2) Navigate to the newly clone repo and install dependencies using `npm ci`
-3) Run the app using npm start (defaults to localhost:3000).
+3) Run the app using `npm start` (defaults to localhost:3000).
 
 ## To-do
 In addition to creating the CRUD backend as well as a simple front-end, I wanted to implement basic tests using [Jest](https://jestjs.io/), however I did not get the chance to implement this. If I would have, my go-to methodology would be to create extensive tests for the CRUD functionalities as they are the key functionalities of this application. 
