@@ -1,0 +1,37 @@
+body {
+    background-color: #111;
+    color: #fff;
+}
+
+td, tr, th, tbody {
+    color: #fff;
+}
+
+.container {
+    margin-top: 25px;
+}
+
+#create-modal, #update-modal {
+    color: #000;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+#filter-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+#filter-form, #reset-form {
+    display: flex;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+#filter-form button {
+    margin-left: 5px;  
+}
