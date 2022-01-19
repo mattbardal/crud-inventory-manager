@@ -75,11 +75,17 @@ app.get('/api/item/name/:name', (req, res) => {
         }
 
         const matches = rows.filter(row => row.name.includes(req.params.name));
+        if(matches.length > 0) {
+            res.json({
+                "message":"success", 
+                "data": matches
+            });
+        } else {
+            res.json({
+                "message":"No matches found."
+            }); 
+        }
 
-        res.json({
-            "message":"success", 
-            "data": matches
-        });
     });  
 });
 
