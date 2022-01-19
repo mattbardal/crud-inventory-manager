@@ -72,6 +72,7 @@ app.get('/api/item/name/:name', (req, res) => {
     db.all(sql, (err, rows) => {
         if (err) {
             res.status(400).json({"error": err.message});
+            return;
         }
 
         const matches = rows.filter(row => row.name.includes(req.params.name));
@@ -85,7 +86,6 @@ app.get('/api/item/name/:name', (req, res) => {
                 "message":"No matches found."
             }); 
         }
-
     });  
 });
 
