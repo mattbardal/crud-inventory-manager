@@ -1,4 +1,4 @@
-const api = window.location.hostname === 'localhost' ? 'http://localhost:3000/api' : `http://${window.location.hostname}/api`;
+const api = window.location.hostname === 'localhost' ? 'http://localhost:3000/api' : `https://${window.location.hostname}/api`;
 
 document.addEventListener("DOMContentLoaded", () => {
     const table = document.querySelector('#data-table tbody');
