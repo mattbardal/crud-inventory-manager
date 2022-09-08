@@ -1,5 +1,5 @@
 # crud-inventory-manager
-This application is an online CRUD inventory manager built for the Summer 2022 Shopify Intern Challenge. It lets users create inventory entries, update previously created entries, delete entries, filter entries by name, and export the database as a CSV file. It was built using Node.JS/Express and SQLite3 for the back-end with a simple front-end using HTML, CSS, Bootstrap 5, and some vanilla JS. It is currently hosted on Heroku at https://blooming-sands-72900.herokuapp.com/.
+This application is an online CRUD inventory manager built for the Summer 2022 Shopify Intern Challenge. It lets users create inventory entries, update previously created entries, delete entries, filter entries by name, and export the database as a CSV file. It was built using Node.JS/Express and SQLite3 for the back-end with a simple front-end using HTML, CSS, Bootstrap 5, and some vanilla JS.
 
 ## How it works
 ### Backend
